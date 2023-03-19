@@ -32,7 +32,7 @@ header{
     padding: 10px;
     position: fixed;
     margin-top: -50px;
-    z-index: 0;
+    z-index: 10;
     background-color: white;
     align-items: center;
     justify-content: space-between;
@@ -71,13 +71,19 @@ header .menu2 ul{
     left: 0;
     width: 250px;
     line-height: 3;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
     backdrop-filter: blur(7px);
     background-color: white;
     box-shadow: 0px 0px 5px 0px green;
     margin-left: -100%;
     transition: all 1s ease;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: white;
+    background-color: green;
 }
 /*****************************************************/
 .bloc-accueil{
@@ -252,7 +258,7 @@ header .menu2 ul{
     padding-bottom: 10px;
     text-align: center;
 }
-.bloc9 h4{
+.bloc9 h5{
     width: 100px;
     margin: auto;
     border-bottom: 3px solid rgb(194, 194, 131);
@@ -267,7 +273,7 @@ header .menu2 ul{
     align-items: center;
     gap: 10px;
 }
-.bloc10 .contenu h3{
+.bloc10 .contenu h4{
     color: green;
 }
 .bloc10 p img, .contenu-droit p img{
@@ -285,10 +291,10 @@ header .menu2 ul{
 footer{
     padding: 30px;
 }
-footer h3{
+footer h4{
     color: green;
 }
-.location div h3,.contact div h3, .email div h3{
+.location div h4,.contact div h4, .email div h4{
     border-bottom: 2px solid rgb(194, 194, 131);
 }
 footer a{
