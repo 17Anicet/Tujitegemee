@@ -1,0 +1,431 @@
+@font-face{
+    font-family: 'Sen-Bold';
+    src: url('Sen-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Sen-Regular';
+    src: url('Sen-Regular.ttf') format('truetype');
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 50px;
+    font-family: 'Sen-Regular';
+}
+/*****************************************************/
+header{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: fixed;
+    margin-top: -50px;
+    z-index: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 0px green;
+}
+header .logos{
+    width: 217px;
+    margin-left: 30px;
+}
+header .menus{
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+header .menu2 ul{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    list-style-type: none;
+}
+.accueil a,.servicess a, .apropos a, .teams a, .contacts a{
+    color: green;
+}
+.accueil a{
+    border-bottom: 2px solid rgb(194, 194, 131);
+}
+.accueil a:hover,.servicess a:hover, .apropos a:hover, .teams a:hover, .contacts a:hover{
+    transition: 1.5s;
+    color: rgb(194, 194, 131);
+}
+.menu{
+    position: absolute;
+    top: 68px;
+    display: none;
+    left: 0;
+    width: 250px;
+    line-height: 3;
+    padding: 10px;
+    text-align: center;
+    backdrop-filter: blur(7px);
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px green;
+    margin-left: -100%;
+    transition: all 1s ease;
+}
+/*****************************************************/
+.bloc-accueil{
+    height: 90vh;
+    padding: 20px;
+}
+.blocks{
+    padding: 20px;
+    margin-top: 150px;
+    align-items: center;
+}
+.blocks h2{
+    font-size: xx-large;
+    padding-bottom: 30px;
+    color: green;
+}
+.blocks p{
+    font-size: x-large;
+}
+/*****************************************************/
+.bloc{
+    background-color: rgb(243, 242, 242);
+}
+.bloc h2{
+    padding-top: 30px;
+    color: green;
+    margin-left: 30px;
+}
+.bloc h4{
+    width: 100px;
+    padding-top: 8px;
+    margin-left: 30px;
+    border-bottom: 3px solid rgb(194, 194, 131);
+}
+.bloc1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    column-gap: 40px;
+}
+.bloc1 div p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.bloc1 p img{
+    width: 600px;
+    align-items: center;    
+}
+/*****************************************************/
+.bloc2 h2{
+    color: green;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+.bloc2 h4{
+    width: 100px;
+    margin-left: 30px;
+    border-bottom: 3px solid rgb(194, 194, 131);
+}
+.bloc3{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 30px;
+}
+.bloc3 div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.bloc3 div p img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/*****************************************************/
+.bloc4{
+    background-color: rgb(243, 242, 242);
+}
+.bloc4 h2{
+    color: green;
+    text-align: center;
+    padding-top: 30px;
+}
+.bloc4 h4{
+    width: 100px;
+    margin: auto;
+    padding-top: 10px;
+    border-bottom: 3px solid rgb(194, 194, 131);
+}
+.bloc5{
+    gap: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.bloc6,.bloc6a,.bloc7,.bloc7a{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.bloc6{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bloc6 h3,.bloc6a h3,.bloc7 h3,.bloc7a h3{
+    color: green;
+}
+.bloc6 p, .bloc6a p, .bloc7 p, .bloc7a p{
+    margin-top: 40px;
+}
+.bloc6a{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.bloc7{
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.bloc7a{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bloc7,.bloc7a{
+    margin-bottom: 30px;
+}
+/*****************************************************/
+.bloc8{
+    padding: 30px;
+}
+.bloc8 h2{
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bloc8 h4{
+    width: 100px;
+    margin: auto;
+    border-bottom: 3px solid rgb(194, 194, 131);
+}
+.bloc-all{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.quality,.price,.team,.aide{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+.quality p img,.price p img, .team p img, .aide p img{
+    width: 70px;
+}
+/*****************************************************/
+.bloc9{
+    padding: 30px;
+    background-color: rgb(243, 242, 242);
+}
+.bloc9 h2{
+    color: green;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.bloc9 h4{
+    width: 100px;
+    margin: auto;
+    border-bottom: 3px solid rgb(194, 194, 131);
+}
+.bloc10{
+    display: grid;
+    justify-content: center;
+}
+.bloc10 .contenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.bloc10 .contenu h3{
+    color: green;
+}
+.bloc10 p img, .contenu-droit p img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.display-contenu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/*****************************************************/
+footer{
+    padding: 30px;
+}
+footer h3{
+    color: green;
+}
+.location div h3,.contact div h3, .email div h3{
+    border-bottom: 2px solid rgb(194, 194, 131);
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.bloc-general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo p img{
+    width: 217px;
+}
+.location p img, .contact p img, .email p img,.media p img{
+    width: 25px;
+}
+.media div a img{
+    width: 20px;
+}
+.location div, .email div, .contact div, .media div{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.media div{
+    gap: 36px;
+}
+footer h6{
+    margin-top: 30px;
+    color: green;
+}
+.scroll{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.scroll p img{
+    width: 50px;
+}
+/*****************************************************/
+  /*******************MEDIA QUERY*******************/
+/*****************************************************/
+@media all and (max-width:1000px){
+    .bloc1 p img{
+        width: 400px;
+    }
+}
+@media all and (max-width:855px){
+    .contacts{
+        display: none;
+    }
+}
+@media all and (max-width:794px){
+    .bloc-all{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc10{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width:762px){
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .logos{
+        margin-right: 10px;
+    }
+    .bloc1,.bloc3{
+        display: flex;
+        flex-direction: column;
+    }
+    .display-contenu{
+        display: block;
+        margin: 0 auto;
+    }
+    .menu2 {
+        display: none;
+    }
+    header .menus{
+        display: initial;
+        margin-left: 20px;
+    }
+    .menu{
+        display: initial;
+        position: absolute;
+        margin-left: -100%;
+    }
+    .menu-mobile{
+        margin-left: 0;
+    }
+}
+@media all and (max-width:648px){
+    .bloc6,.bloc6a,.bloc7,.bloc7a{
+        border-radius: 30px;
+    }
+}
+@media all and (max-width:547px){
+    .blocks p{
+        font-size: large;
+    }
+}
+@media all and (max-width: 447px){
+    .bloc-accueil div p img, .bloc1 p img{
+        width: 350px;
+    }
+    .bloc-general{
+        display: grid;
+        justify-content: center;
+    }
+    .bloc-footer2{
+        margin-top: 10px;
+    }
+}
+@media all and (max-width:427px){
+    header .logos{
+        width: 170px;
+    }
+    header .menus{
+        width: 30px;
+    }
+    .bloc3 div div,.quality,.price,.team,.aide{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media all and (max-width:397px){
+    .bloc-accueil div p img,.bloc1 p img{
+        width: 260px;
+    }
+    .bloc-accueil{
+        padding: 15px;
+    }
+}
