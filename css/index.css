@@ -411,7 +411,7 @@ footer a{
     }
     .bloc-general{
         display: grid;
-        justify-content: left;
+        justify-content: center;
     }
     .bloc-footer2{
         margin-top: 10px;
