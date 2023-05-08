@@ -320,6 +320,7 @@ footer a{
 }
 .media div{
     gap: 28px;
+    margin-top: -15px;
 }
 footer a{
     font-size: 12px;
