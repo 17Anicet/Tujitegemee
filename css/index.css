@@ -45,6 +45,7 @@ header .logos{
 header .menus{
     width: 40px;
     display: none;
+    margin-right: 15px;
     cursor: pointer;
 }
 header .menu2 ul{
@@ -373,10 +374,10 @@ footer a{
 @media all and (max-width:762px){
     header{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
-    .logos{
-        margin-right: 10px;
+    header .logos{
+        margin-left: 10px;
     }
     .bloc1,.bloc3{
         display: flex;
