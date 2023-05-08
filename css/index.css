@@ -233,12 +233,13 @@ header .menu2 ul{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    text-align: justify;
 }
-.quality,.price,.team,.aide{
+.quality,.price, .team, .aide{
     display: flex;
+    padding-top: 25px;
     flex-direction: row;
     align-items: center;
-    text-align: justify;
 }
 .quality p img,.price p img, .team p img, .aide p img{
     width: 70px;
@@ -352,6 +353,7 @@ footer a{
     .bloc-all{
         display: flex;
         flex-direction: column;
+        gap: 0;
     }
     .bloc10{
         display: block;
@@ -389,7 +391,7 @@ footer a{
     .menu-mobile{
         margin-left: 0;
     }
-    .bloc-accueil,.bloc,.bloc2{
+    .bloc-accueil,.bloc,.bloc2,.bloc8{
         padding: 15px;
     }
 }
