@@ -192,15 +192,17 @@ header .menu2 ul{
     gap: 40px;
     padding-top: 40px;
 }
+.bloc5 h3{
+    color: green;
+    padding-top: 30px;
+}
 .bloc6,.bloc7,.bloc6a,.bloc7a{
     width: 300px;
     height: 200px;
     padding: 10px;
     text-align: center;
     background-color: white;
-    width: 300px;
-    height: 200px;
-    background-color: white;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 .bloc6,.bloc7a{
     border-top-left-radius: 20px;
@@ -209,6 +211,9 @@ header .menu2 ul{
 .bloc6a,.bloc7{
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+.bloc6 p,.bloc7 p,.bloc6a p,.bloc7a p{
+    padding-top: 30px;
 }
 /*****************************************************/
 .bloc8{
@@ -388,8 +393,10 @@ footer a{
         padding: 15px;
     }
 }
-@media all and (max-width:648px){
-    
+@media all and (max-width: 716px){
+    .bloc6,.bloc7,.bloc6a,.bloc7a{
+        border-radius: 20px;
+    }    
 }
 @media all and (max-width:547px){
     .blocks p{
