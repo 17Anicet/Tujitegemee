@@ -170,61 +170,7 @@ header .menu2 ul{
     border-radius: 50%;
 }
 /*****************************************************/
-.bloc4{
-    background-color: rgb(243, 242, 242);
-}
-.bloc4 h2{
-    color: green;
-    text-align: center;
-    padding-top: 30px;
-}
-.bloc4 h4{
-    width: 100px;
-    margin: auto;
-    padding-top: 10px;
-    border-bottom: 3px solid rgb(194, 194, 131);
-}
-.bloc5{
-    gap: 30px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-}
-.bloc6,.bloc6a,.bloc7,.bloc7a{
-    width: 300px;
-    height: 200px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-}
-.bloc6{
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-.bloc6 h3,.bloc6a h3,.bloc7 h3,.bloc7a h3{
-    color: green;
-}
-.bloc6 p, .bloc6a p, .bloc7 p, .bloc7a p{
-    margin-top: 40px;
-}
-.bloc6a{
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-.bloc7{
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-.bloc7a{
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-.bloc7,.bloc7a{
-    margin-bottom: 30px;
-}
+
 /*****************************************************/
 .bloc8{
     padding: 30px;
@@ -404,9 +350,7 @@ footer a{
     }
 }
 @media all and (max-width:648px){
-    .bloc6,.bloc6a,.bloc7,.bloc7a{
-        border-radius: 30px;
-    }
+    
 }
 @media all and (max-width:547px){
     .blocks p{
