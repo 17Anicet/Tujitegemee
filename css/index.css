@@ -332,7 +332,8 @@ footer a{
 .media div{
     gap: 28px;
 }
-footer h6{
+footer a{
+    font-size: 14px;
     margin-top: 30px;
     color: green;
 }
