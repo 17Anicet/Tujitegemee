@@ -170,7 +170,46 @@ header .menu2 ul{
     border-radius: 50%;
 }
 /*****************************************************/
-
+.bloc4{
+    padding: 30px;
+    background-color: rgb(243, 242, 242);
+}
+.bloc4 h2{
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bloc4 h4{
+    width: 100px;
+    margin: auto;
+    border-bottom: 3px solid rgb(194, 194, 131);
+}
+.bloc5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+.bloc6,.bloc7,.bloc6a,.bloc7a{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+.bloc6,.bloc7a{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bloc6a,.bloc7{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 /*****************************************************/
 .bloc8{
     padding: 30px;
