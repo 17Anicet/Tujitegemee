@@ -139,19 +139,19 @@ header .menu2 ul{
     align-items: center;    
 }
 /*****************************************************/
+.bloc2{
+    padding: 30px;
+}
 .bloc2 h2{
     color: green;
     margin-top: 30px;
-    margin-left: 30px;
     padding-bottom: 10px;
 }
 .bloc2 h4{
     width: 100px;
-    margin-left: 30px;
     border-bottom: 3px solid rgb(194, 194, 131);
 }
 .bloc3{
-    padding: 30px;
     display: flex;
     flex-direction: row;
     text-align: justify;
@@ -399,7 +399,7 @@ footer a{
     .menu-mobile{
         margin-left: 0;
     }
-    .bloc-accueil,.bloc{
+    .bloc-accueil,.bloc,.bloc2{
         padding: 15px;
     }
 }
