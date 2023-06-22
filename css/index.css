@@ -30,8 +30,8 @@ header{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    position: fixed;
     margin-top: -50px;
+    position: fixed;
     z-index: 10;
     background-color: white;
     align-items: center;
@@ -40,7 +40,7 @@ header{
 }
 header .logos{
     width: 200px;
-    margin-left: 30px;
+    padding-left: 30px;
 }
 header .menus{
     width: 40px;
